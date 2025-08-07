@@ -8,10 +8,6 @@ from openai import OpenAI
 import openai
 #===================================================================================
 settings = Settings()
-
-
-
-
 temp = float(settings.TEMPR)
 #===================================================================================
 def read_text_file(file_path):
@@ -245,4 +241,5 @@ def get_fireworks_response(user_prompt,
 
     except Exception as e:
         print("Fireworks error:", e)
+
         return None
