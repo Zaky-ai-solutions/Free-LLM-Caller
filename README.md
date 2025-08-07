@@ -58,6 +58,9 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+```
+## 🔐 Setup: Create .env File
+rename the .env.example to be .env and enter your API Keys and Models names
 
 
 
